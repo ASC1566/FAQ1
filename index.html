@@ -137,6 +137,48 @@ div {
 }
 </style>
 </head>
+  <body>
+<h1>Frequently Asked Questions</h1>
+  <div class="mydiv">  
+</p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+
+<p>Here are some questions that the members often ask frequently. Hope this helps you</p>
+
+<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">How to verify yourself ?</button>
+<div id="Demo1" class="w3-hide w3-container">
+    <p>To verify yourself, please feel in the form by going to #🟠inform-verify  , it should only take you less than 5 minutes to do so ^^ after that, please wait patiently until a staff gives you the verify role and ping you to notify you.</p>
+</div>
+
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">Do I have to ask someone for permission to join the public study room?</button>
+<div id="Demo2" class="w3-hide w3-container">
+    <p>Public study room is for members to go into the vc freely, once you hop into the vc, everything will be settled, for example your study points will start counting, channels will be hidden (not for now but soon). If you have any more questions about the public study room please submit a ticket by going to the #🤗-help-desk  and a staff will be with you shortly. If you want to play some music but some members are in the room with you, you must ask them if they allow you to play some music in. Mic must be off. Try not to do anything that may come across as offensive.</p>
+</div>
+
+<button onclick="myFunction('Demo3')" class="w3-button w3-block w3-black w3-left-align">How to create a vc myself?</button>
+<div id="Demo3" class="w3-hide w3-container">
+    <p>To create a vc youself, feel free to click the join the create vc, then your own special vc will open for you, then you are done. If you want to open your mic, you need to ask your friend / friends or the one/two who are studying with you to allow you to do so. Please Try not to do anything that may come across as offensive. If you are using your mic related to studies, that will be fine.</p>
+</div>
   
+  <script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-black", "w3white");
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-white", "w3-black");
+  }
+}
+</script>
+
+</div>
+
 </body>
 </html>
