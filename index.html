@@ -173,7 +173,21 @@ div {
 <div id="Demo5" class="w3-hide w3-container">
     <p>Yes of course ! This server is for you to learn and get help, not for b someone. We don't allow members who joined in the server, trying to rob others. We already had a few incident, a member who is a troll robbed all the money in the #deleted-channel , after we ban that person, that person used several Alt accounts to rob members. That behavior is not acceptable. We offer members a safe and nice place, not for you to rob someone multiple times and not talk to us.</p>
 </div>
-  
+  <script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-black", "w3white");
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-white", "w3-black");
+  }
+}
+</script>
+
 </div>
 
 </body>
